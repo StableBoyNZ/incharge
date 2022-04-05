@@ -14,6 +14,8 @@
 # to be used as the ownership of the directory.
 # Group however seems to say okay i.e. gidNumber 1000,
 # or "Domain Users".
+# In simple layman code: we want #for FILE in *; do echo -e "$FILE\nLoops Rule\!" > $FILE; chown $FILE $FILE; done
+
 nameofdir=""
 logFile="ownershipsfix.log"
 logDir=""
